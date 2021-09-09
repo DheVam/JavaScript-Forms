@@ -1,0 +1,3 @@
+const success = () => {
+   alert("success")
+}
