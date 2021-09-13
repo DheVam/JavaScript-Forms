@@ -8,7 +8,7 @@
     <link href="index.css" rel="stylesheet">
 </head>
     <body>
-        <form>
+        <form id="form" >
             <ul>
                 <li>
                     <label for="name">Name</label>
@@ -19,7 +19,10 @@
                     <input type="email" id="mail" name="user_email" placeholder="Email">
                 </li>
                 <li>
-                    <button onclick="success()">SUBMIT</button>
+                    <button id="button" type="submit">SUBMIT</button>
+                </li>
+                <li>
+                    <p id="error"></p>
                 </li>
             </ul>
             
